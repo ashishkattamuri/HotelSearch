@@ -1,0 +1,35 @@
+h1 {
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-weight:700;
+  font-style:italic;
+}
+.form {
+  width:70%;
+  float: center;
+}
+.border {
+  border: 2px solid #009;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  -webkit-box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75);
+  box-shadow: 4px 4px 5px rgba(50, 50, 50, 0.75);
+}
+
+fieldset
+{
+width: 40%; margin:auto;
+
+}
+
+Label, legend {
+  margin-left: 3px;
+  padding-top: 2px;
+  text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.75);
+  font-family:Verdana, Geneva, sans-serif;
+  font-size:.9em;
+}
+
+placeholder-fix:focus::-webkit-input-placeholder  { color:transparent; }
+placeholder-fix:focus::-moz-placeholder   { color:transparent; }

@@ -1,0 +1,66 @@
+<html>
+
+<head>
+
+<link href="styles/myStyles.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<hgroup>
+    <h1 align="center">&nbsp;</h1>
+	<br/>
+  </hgroup>
+  <form id="ctSearchForm">
+    <fieldset>
+	
+	<legend>Hotel Search</legend>
+	<table cellspacing=5 cellpadding=5>
+	<tr>
+	<td colspan="4"> <label>City:</label> <br/><input type="text" id="city" name="City" placeholder="Enter City" /> </td>
+	</tr>
+	
+	<tr>
+	<td width="35%"> <label>Checkin:(mm/dd/yy)</label> <input type="text" id="checkin" name="checkin" placeholder="Enter Checkin Date"/> </td>
+	<td width="35%"> <label>Checkout:(mm/dd/yy)</label> <input type="text" id="checkout" name="checkout" placeholder="Enter Checkout Date"/></td>
+	<td width="15%"> <label>Guests:</label> 
+	<select id="guests" type="select-one" >
+						<option value="1" checked>1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+
+					
+
+	</td>
+	<td width="15%"> <label>Rooms:</label> 
+	<select id="rooms" type="select-one">
+						<option value="1" checked>1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+					</select>
+	</td>
+	</tr>
+	
+	
+	
+	
+	</table>
+	
+	<p> Compare on:</p>
+	<div id="ctAnchor" style="display:inline"></div>
+	<div>
+			
+    <p align="center"> <button type="submit" >Search Hotels</button> </p>
+	 
+     
+    </fieldset>
+  </form>
+
+</body>
+<script type="text/javascript" src="scripts/my_ctq_init.js"></script>
+
+</html>
